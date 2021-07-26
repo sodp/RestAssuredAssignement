@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="22" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3924" started-at="2021-05-20T13:09:20Z" finished-at="2021-05-20T13:09:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3924" started-at="2021-05-20T13:09:20Z" finished-at="2021-05-20T13:09:24Z">
+      <class name="Training.JiraAssignment.addcommentTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="setExtent" is-config="true" duration-ms="174" started-at="2021-05-20T18:39:20Z" finished-at="2021-05-20T18:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="getsession" is-config="true" duration-ms="71" started-at="2021-05-20T18:39:20Z" finished-at="2021-05-20T18:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="addComment()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="addComment" duration-ms="376" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="endLogStatus" is-config="true" duration-ms="25" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addComment status=SUCCESS method=addcommentTest.addComment()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="endReportStatus" is-config="true" duration-ms="9" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addComment status=SUCCESS method=addcommentTest.addComment()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Training.JiraAssignment.addcommentTest@5a9800f8]" name="endReport" is-config="true" duration-ms="644" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Training.JiraAssignment.addcommentTest -->
+      <class name="Training.JiraAssignment.getcommentTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224]" name="getsession" is-config="true" duration-ms="64" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="getComments()[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224]" name="getComments" duration-ms="961" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getComments -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getComments status=SUCCESS method=getcommentTest.getComments()[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224]" name="endReportStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getComments status=SUCCESS method=getcommentTest.getComments()[pri:0, instance:Training.JiraAssignment.getcommentTest@70807224] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.getcommentTest -->
+      <class name="Training.JiraAssignment.createuserTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f]" name="getsession" is-config="true" duration-ms="63" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="newUser()[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f]" name="newUser" duration-ms="188" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newUser status=SUCCESS method=createuserTest.newUser()[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f]" name="endReportStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:24Z" finished-at="2021-05-20T18:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newUser status=SUCCESS method=createuserTest.newUser()[pri:0, instance:Training.JiraAssignment.createuserTest@7e97551f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.createuserTest -->
+      <class name="Training.JiraAssignment.createGroupTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b]" name="getsession" is-config="true" duration-ms="258" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="createGroup()[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b]" name="createGroup" duration-ms="577" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGroup -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createGroup status=SUCCESS method=createGroupTest.createGroup()[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b]" name="endReportStatus" is-config="true" duration-ms="0" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createGroup status=SUCCESS method=createGroupTest.createGroup()[pri:0, instance:Training.JiraAssignment.createGroupTest@4159e81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.createGroupTest -->
+      <class name="Training.JiraAssignment.deleteUserTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2]" name="getsession" is-config="true" duration-ms="128" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="deleteuser()[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2]" name="deleteuser" duration-ms="76" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteuser status=SUCCESS method=deleteUserTest.deleteuser()[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2]" name="endReportStatus" is-config="true" duration-ms="0" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteuser status=SUCCESS method=deleteUserTest.deleteuser()[pri:0, instance:Training.JiraAssignment.deleteUserTest@23cd4ff2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.deleteUserTest -->
+      <class name="Training.JiraAssignment.editissueTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93]" name="getsession" is-config="true" duration-ms="185" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="editIssue()[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93]" name="editIssue" duration-ms="188" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editIssue -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editIssue status=SUCCESS method=editissueTest.editIssue()[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93]" name="endReportStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editIssue status=SUCCESS method=editissueTest.editIssue()[pri:0, instance:Training.JiraAssignment.editissueTest@143d9a93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.editissueTest -->
+      <class name="Training.JiraAssignment.deleteIssueTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08]" name="getsession" is-config="true" duration-ms="61" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="deleteIssue()[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08]" name="deleteIssue" duration-ms="423" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteIssue -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08]" name="endLogStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteIssue status=SUCCESS method=deleteIssueTest.deleteIssue()[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08]" name="endReportStatus" is-config="true" duration-ms="0" started-at="2021-05-20T18:39:23Z" finished-at="2021-05-20T18:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteIssue status=SUCCESS method=deleteIssueTest.deleteIssue()[pri:0, instance:Training.JiraAssignment.deleteIssueTest@5b5caf08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.deleteIssueTest -->
+      <class name="Training.JiraAssignment.updatecommentTest">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788]" name="getsession" is-config="true" duration-ms="116" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsession -->
+        <test-method status="PASS" signature="updateComment()[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788]" name="updateComment" duration-ms="92" started-at="2021-05-20T18:39:21Z" finished-at="2021-05-20T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComment -->
+        <test-method status="PASS" signature="endLogStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788]" name="endLogStatus" is-config="true" duration-ms="2" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateComment status=SUCCESS method=updatecommentTest.updateComment()[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogStatus -->
+        <test-method status="PASS" signature="endReportStatus(org.testng.ITestResult)[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788]" name="endReportStatus" is-config="true" duration-ms="1" started-at="2021-05-20T18:39:22Z" finished-at="2021-05-20T18:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateComment status=SUCCESS method=updatecommentTest.updateComment()[pri:0, instance:Training.JiraAssignment.updatecommentTest@40226788] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportStatus -->
+      </class> <!-- Training.JiraAssignment.updatecommentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

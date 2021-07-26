@@ -1,0 +1,7 @@
+{
+  "visibility": {
+    "type": "role",
+    "value": "Administrators"
+  },
+  "body": "This is comment updated from POSTMAN after creation"  
+}
